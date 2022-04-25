@@ -13,7 +13,7 @@ public class SmbmsUser {
 	private String phone;   //电话
 	private String address; //地址
 	private Integer userRole;    //用户角色
-	private Integer created;   //创建者
+	private Integer createdBy;   //创建者
 	private String creationDate; //创建时间
 	private Integer modifyBy;     //更新者
 	private String modifyDate;   //更新时间
