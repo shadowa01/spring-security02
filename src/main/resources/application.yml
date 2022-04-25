@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/smbms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
+  redis:
+    database: 0
+    host: 127.0.0.1
+    password:
+    port: 6379
+#mybatis≈‰÷√
+mybatis:
+  type-aliases-package: com.hz.springsecurity02.pojo
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  #¥Ú”°SQL”Ôæ‰
